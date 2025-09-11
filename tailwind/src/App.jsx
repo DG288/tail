@@ -4,6 +4,7 @@ import "tailwindcss"
 import Body from './body.jsx';
 import Footer from './footer.jsx';
 import Header from './header.jsx';
+import funcionx from './funcionx.jsx';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <Header />
     <Nav />
     <Body />
+    {funcionx()}
     <Footer />
     </>
   );
