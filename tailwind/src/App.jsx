@@ -5,6 +5,7 @@ import Body from './body.jsx';
 import Footer from './footer.jsx';
 import Header from './header.jsx';
 import funcionx from './funcionx.jsx';
+import Summary from './summary.jsx';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <Nav />
     <Body />
     {funcionx()}
+    <Summary />
     <Footer />
     </>
   );
