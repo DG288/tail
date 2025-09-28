@@ -6,6 +6,7 @@ import Footer from './footer.jsx';
 import Header from './header.jsx';
 import funcionx from './funcionx.jsx';
 import Summary from './summary.jsx';
+import This from './this.jsx'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <Body />
     {funcionx()}
     <Summary />
+    <This />
     <Footer />
     </>
   );
