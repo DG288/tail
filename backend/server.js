@@ -24,7 +24,7 @@ db.on('error', console.error.bind(console, '❌ Error al conectar a MongoDB:'));
 db.once('open', () => {
   console.log('✅ Conexión exitosa a MongoDB');
 });
-
+ 
 // 6. Ruta de prueba
 app.get('/', (req, res) => {
   res.json({ mensaje: 'Backend funcionando 🚀' });

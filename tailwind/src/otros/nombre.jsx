@@ -10,9 +10,9 @@ function nombre(){
                 <label htmlFor="nombre" type="text">Porner nombre:</label>
                 <input type="text" id="nombre" placeholder="Nombre" onChange={e => setnombre(e.target.value)} />
                 <button onClick={() => alert(nombre)}>enviar</button>
+                
             </div>
         </form>
-
     );
 }
 export default nombre;
